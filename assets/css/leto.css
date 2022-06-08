@@ -34,9 +34,33 @@ src: url("../font/PermanentMarker-Regular.ttf")
         src: url("../font/Beograd.ttf") 
         }
 
-body {
+/* common */
 
+/* general */
+
+.all-page {
+    margin-top: 300px;
 }
+.center {
+    margin-left: auto;
+    margin-right:auto;
+    width: 960px;
+    margin-top: 50px;
+    display: table;
+    font: 25px "amatic";
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font: 40px "amatic";
+}
+
+.img-padding {
+    padding: 20px 25px 20px 25px;
+}
+
+/* title menu*/
 
 .foto-nav {
     position: absolute;
@@ -75,12 +99,6 @@ body {
     margin-top: 13px;
 }
 
-
-
-.main-foto {
-
-}
-
 #top-foto {
     width: 1024px;
 }
@@ -90,6 +108,8 @@ body {
     margin: 0 auto;
     width: 1264px;
 }
+
+/* navigation */
 
 .nav {
     float: right;
@@ -205,37 +225,18 @@ body {
     float: right;
 }
 
-.all-page {
-    margin-top: 300px;
-}
-.center {
-    margin-left: auto;
-    margin-right:auto;
-    width: 960px;
-    margin-top: 50px;
-    display: table;
-    font: 25px "amatic";
-    text-align: center;
-
-}
+/* golovna */
 
 .golovna {
     background-color:rgb(252, 252, 229);
     box-shadow: 0px 2px 17px 10px RGB(245 248 161/ 0.9);
 }
 
-h2 {
-    color: white;
-    font: 40px "amatic";
-}
-
 .golovna h2{
     background-color: rgb(245, 191, 0);
 }
 
-.img-padding {
-    padding: 20px 25px 20px 25px;
-}
+/* pisni */
 
 .pisni h2 {
     background-color: rgb(247, 149, 28);
@@ -257,6 +258,8 @@ h2 {
     list-style-image: url(../img/icon/i.gif);
     text-decoration: underline;
 }
+
+/* video */
 
 .video-claster h2 {
     background-color: rgb(243, 100, 34);
@@ -280,6 +283,8 @@ h2 {
     text-decoration: underline;
 }
 
+/* disign block */
+
 .i {
     right: 0;
     margin-right: 244px;
@@ -298,6 +303,8 @@ h2 {
     position: fixed;
     right: 0;
 }
+
+/* footer */
 
 .ground {
     margin-bottom: 0px;
