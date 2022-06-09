@@ -49,6 +49,8 @@ src: url("../font/PermanentMarker-Regular.ttf")
     display: table;
     font: 25px "amatic";
     text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 6px;
 }
 
 h2 {
@@ -295,6 +297,27 @@ h2 {
     box-shadow: 0px 2px 17px 10px rgb(124, 13, 18);
 }
 
+/* stihi */
+.stihi h2 {
+    background-color:rgb(185, 0, 98);
+}
+.stihi {
+    background-color: rgb(135, 0, 78);
+    box-shadow: 0px 2px 17px 10px rgb(92, 0, 54);
+}
+
+/* fotos */
+.fotos h2 {
+    background-color:rgb(135, 62, 149);
+}
+.fotos {
+    background-color: rgb(60, 18, 69);
+    box-shadow: 0px 2px 17px 10px rgb(45, 14, 52);
+}
+
+#photo-link a{
+    color:antiquewhite
+}
 
 /* disign block */
 
