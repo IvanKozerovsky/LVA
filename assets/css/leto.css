@@ -167,6 +167,7 @@ h2 {
     left: 3px; */
     margin: 17px 0 0 5px;
     /* padding: 0px 10px 0px 0px; */
+    float: left;
 }
 #main {
     margin-left: 65px;
@@ -203,7 +204,8 @@ h2 {
 }
 
 #concert1  {
-    margin: 35px 0 0 15px;
+    margin: 35px 0 0 17px;
+    float: left;
 }
 
 /* это дабавил Артур */
@@ -266,6 +268,45 @@ h2 {
     float: right; */
 }
 
+.home-golovna {
+    float: left;
+    margin: 34px 0px 0px 5px;
+}
+.songs-pisni {
+    float: left;
+    margin: 34px 0px 0px 44px;
+}
+#songs-img {
+    float: left;
+}
+#video-img {
+    float: left;
+}
+.video-video {
+    float: left;
+    margin: 34px 0px 0px 44px;
+}
+
+.concert-kvartirnik {    
+    float: left;
+    margin: 34px 0px 0px 5px;
+}
+
+.poetry-virshi {
+    float: left;
+    margin: 34px 0px 0px 32px;
+}
+#poetry-img {
+    float: left;
+}
+.foto-foti {
+    float: left;
+    margin: 34px 0px 0px 48px;
+}
+
+#foto-img {
+    float: left;
+}
 /* golovna */
 
 .golovna {
