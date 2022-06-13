@@ -340,6 +340,9 @@ h2 {
     list-style-image: url(../img/icon/i.gif);
     text-decoration: underline;
 }
+.songs-list td {
+width: 200px;
+}
 
 /* video */
 
@@ -362,6 +365,9 @@ h2 {
 .video-list li:hover {
     list-style-image: url(../img/icon/i.gif);
     text-decoration: underline;
+}
+.video-list td {
+    width: 202px;
 }
 
 /* kvartirnik */
