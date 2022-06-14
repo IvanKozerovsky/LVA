@@ -36,9 +36,9 @@ src: url("../font/PermanentMarker-Regular.ttf")
 
 
 body {
-    background-image: url(../img/rope.png), url(../img/rope.png), url(../img/rope.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top 1220px left 50px, top 700px left 50px, top 1700px left 50px;
+    background-image: url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png), url(../img/rope.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top 755px left 50px, top 1325px left 50px, top 1825px left 50px, top 2318px left 50px, top 2775px left 50px, top 3270px left 50px, top 3618px left 50px, top 3900px left 50px, top 4396px left 50px, top 4890px left 50px, top 5386px left 50px;
 }
 
 
@@ -124,7 +124,7 @@ body {
 }
 
 .foto-line {
-    margin-top: 65px;
+    margin-top: 120px;
 }
 
 .foto-line img {
@@ -146,5 +146,33 @@ body {
 }
 
 .margin-pin-2 {
+    margin-top: -480px;
+}
+.margin-pin-3 {
+    margin-top: -480px;
+}
+
+.margin-pin-4 {
+    margin-top: -435px;
+}
+.margin-pin-5 {
+    margin-top: -480px;
+}
+.margin-pin-6 {
+    margin-top: -323px;
+}
+.margin-pin-7 {
+    margin-top: -262px;
+}
+.margin-pin-8 {
+    margin-top: -480px;
+}
+.margin-pin-9 {
+    margin-top: -480px;
+}
+.margin-pin-10 {
+    margin-top: -480px;
+}
+.margin-pin-11 {
     margin-top: -480px;
 }
