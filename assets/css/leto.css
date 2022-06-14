@@ -93,10 +93,11 @@ h2 {
 }
 
 .header h3 {
-    font: 25px/10px "amatic";
+    font: 27px/30px "amatic";
     color: aliceblue;
-    margin-top: 22px;
+    margin-top: 10px;
     margin-bottom: 0;
+
 }
 
 .header h4 {

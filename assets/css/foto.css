@@ -34,11 +34,31 @@ src: url("../font/PermanentMarker-Regular.ttf")
         src: url("../font/Beograd.ttf") 
         }
 
+
+body {
+    background-image: url(../img/rope.png), url(../img/rope.png), url(../img/rope.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top 1220px left 50px, top 700px left 50px, top 1700px left 50px;
+}
+
+
+.backstage-left {
+    position: fixed;
+    z-index: -1;
+}
+.backstage-right {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+}
+
+
+
 /* header */
 .title-foto {
     margin-left: auto;
     margin-right:auto;
-    width: 1400px;
+    width: 1200px;
     z-index: -1;
 }
 
@@ -53,7 +73,8 @@ src: url("../font/PermanentMarker-Regular.ttf")
     margin: 0 auto;
     display: table;
     width: 1200px;
-    height: 900px;
+    height: 750px;
+    box-shadow: 11px 11px 9px 1px rgb(0 0 0 / 45%);
 }
 
 .main-header h2 {
@@ -65,11 +86,65 @@ src: url("../font/PermanentMarker-Regular.ttf")
 .main-header h1 {
     font: 72px/70px  "permanent";
     color: rgb(255, 251, 0);
-    margin: 26px 0 0 0;
+    margin: -8px 0 0 0;
 }
 .right-header {
     margin: 0px 0px 0px 0;
-    margin-bottom: 0px;
-    float: right;
     text-align: right;
+    /* прижать к нижнему краю */
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 25px 0px 0;
+}
+.header-margin {
+    margin: -45px 0px 0px 45px;
+}
+#LVA-margin {
+    margin: 0px 0px 0px 25px;
+    color: rgb(255, 251, 0);
+}
+
+.right-header h3 {
+    font: 40px/35px "amatic";
+    color: aliceblue;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.right-header h4 {
+    font: 24px "bubbles";
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+}
+
+.fotos {
+    margin: 0 auto;
+    display: table;
+    width: 1600px;
+}
+
+.foto-line {
+    margin-top: 65px;
+}
+
+.foto-line img {
+    width: 250px;
+    margin: 0px 33px;
+    vertical-align: top;
+    box-shadow: 11px 11px 9px 1px rgb(0 0 0 / 45%);
+}
+.pin {
+    position: absolute;
+}
+.pin img {
+    width: 20px;
+    z-index: 1;
+    margin: 0px 148px;
+}
+.margin-pin {
+    margin-top: -560px;
+}
+
+.margin-pin-2 {
+    margin-top: -480px;
 }
