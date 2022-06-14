@@ -176,3 +176,14 @@ body {
 .margin-pin-11 {
     margin-top: -480px;
 }
+
+.left-popping-up {
+    margin-left: 244px;
+    position: absolute;
+}
+
+.right-popping-up {
+    right: 0;
+    margin-right: 244px;
+    position: absolute;
+}
