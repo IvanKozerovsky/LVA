@@ -187,3 +187,27 @@ body {
     margin-right: 244px;
     position: absolute;
 }
+
+#left-popping1 {
+    margin-left: -32px;
+}
+
+#left-popping2 {
+    margin-top: 1930px;
+}
+
+#left-popping3 {
+    margin-top: 4030px;
+}
+
+#right-popping1 {
+    margin-top: 970px;
+}
+
+#right-popping2 {
+    margin-top: 3134px;
+}
+
+#right-popping3 {
+    margin-top: 4934px;
+}
