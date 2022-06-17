@@ -215,3 +215,35 @@ body {
 #right-popping3 {
     margin-top: 4934px;
 }
+
+.rotate1 {
+    transform: rotate(-2deg);
+}
+
+.rotate2 {
+    transform: rotate(-5deg);
+}
+.rotate3 {
+    transform: rotate(-7deg);
+}
+.rotate4 {
+    transform: rotate(-10deg);
+}
+.rotate5 {
+    transform: rotate(-15deg);
+}
+.rotate6 {
+    transform: rotate(2deg);
+}
+.rotate7 {
+    transform: rotate(6deg);
+}
+.rotate8 {
+    transform: rotate(9deg);
+}
+.rotate9 {
+    transform: rotate(11deg);
+}
+.rotate10 {
+    transform: rotate(14deg);
+}
