@@ -132,9 +132,9 @@ h2 {
 
 .nav ul {
     list-style: none;
-    margin: -51px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
-    font: 40px "amatic";
+    font: 40px/51px "amatic";
 }
 
 /* .nav > ul {
@@ -142,7 +142,7 @@ h2 {
     
 } */
 
-.nav > ul li a {
+/* .nav > ul li a {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -151,28 +151,29 @@ h2 {
     text-align: center;
     margin-left: 25px;
     padding-top: 31px;    
-}
+} */
 
 .nav ul li {
     position: relative;
     height: 113.833333333333333333333333333px;
 }
-.nav > ul li >a img {
+/* .nav > ul li >a img {
     position: absolute;
     top: 30px;
     left: 10px;
-}
+} */
 
-#ams {
-    /* top: 18px;
-    left: 3px; */
+/* #ams {
+    top: 18px;
+    left: 3px;
     margin: 17px 0 0 5px;
-    /* padding: 0px 10px 0px 0px; */
+    padding: 0px 10px 0px 0px;
     float: left;
-}
-#main {
+} */
+
+/* #main {
     margin-left: 65px;
-}
+} */
 
 .home {
     background-color: rgb(245, 191, 0);
@@ -199,15 +200,15 @@ h2 {
 
 } */
 
-.nav ul li img {
+/* .nav ul li img {
     margin: 35px 0 0 30px;
     padding: 0px 10px 0px 0px;
-}
+} */
 
-#concert1  {
+/* #concert1  {
     margin: 35px 0 0 17px;
     float: left;
-}
+} */
 
 /* это дабавил Артур */
 .nav ul li:hover {
@@ -269,25 +270,25 @@ h2 {
     float: right; */
 }
 
-.home-golovna {
+/* .home-golovna {
     float: left;
     margin: 34px 0px 0px 5px;
-}
-.songs-pisni {
+} */
+/* .songs-pisni {
     float: left;
     margin: 34px 0px 0px 44px;
-}
-#songs-img {
+} */
+/* #songs-img {
     float: left;
 }
 #video-img {
     float: left;
-}
-.video-video {
+} */
+/* .video-video {
     float: left;
     margin: 34px 0px 0px 44px;
-}
-
+} */
+/* 
 .concert-kvartirnik {    
     float: left;
     margin: 34px 0px 0px 5px;
@@ -307,6 +308,37 @@ h2 {
 
 #foto-img {
     float: left;
+} */
+
+/* обновлённые иконки навигации */
+.nav-icon {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 100px;
+    line-height: 114px;
+    clear: left;
+    text-align: center;
+    height: inherit;
+    margin: 0 0 0 2px;
+}
+
+.home-icon {
+    background-image: url(../img/AMS5.png);
+}
+.pisni-icon {
+    background-image: url(../img/pisni11.png);
+}
+.video-icon {
+    background-image: url(../img/video11.png);
+}
+.concert-icon {
+    background-image: url(../img/concert11.png);
+}
+.virshi-icon {
+    background-image: url(../img/poetry11.png);
+}
+.foto-icon {
+    background-image: url(../img/photo11.png);
 }
 /* golovna */
 
@@ -344,6 +376,7 @@ h2 {
 .songs-list td {
 width: 200px;
 }
+
 
 /* video */
 
